@@ -1,5 +1,5 @@
 <?php
-include '../config/koneksi.php';
+include 'koneksi.php';
 $id = $_GET['id'];
 ?>
      						
@@ -14,7 +14,7 @@ $id = $_GET['id'];
  } 
 ?-->	
 <head>
-<h3><a href="../index.php" >form input data</a> || <a href="data_peserta.php" >laporan</a></h3>
+<h3><a href="index.php" >form input data</a> || <a href="data_peserta.php" >laporan</a></h3>
 </head>
   <body class="nav-md" style="background-color:#d1FFFF">
   <font face="comic sans MS" >
