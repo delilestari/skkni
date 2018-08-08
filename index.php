@@ -1,5 +1,5 @@
 <?php 
-include "config/function.php";
+include "function.php";
 
 ?>
 <html>
