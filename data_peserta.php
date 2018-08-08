@@ -1,5 +1,5 @@
 <?php
-include '../config/koneksi.php';
+include 'koneksi.php';
 ?>
      						
 <!--?php 
@@ -13,7 +13,7 @@ include '../config/koneksi.php';
  } 
 ?-->	
 <head>
-<h3><a href="../index.php" >form input data</a> || <a href="data_peserta.php" >laporan</a></h3>
+<h3><a href="index.php" >form input data</a> || <a href="data_peserta.php" >laporan</a></h3>
 </head>
   <body class="nav-md" style="background-color:#d1FFFF">
   <font face="comic sans MS" >
