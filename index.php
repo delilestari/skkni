@@ -8,7 +8,7 @@ include "function.php";
 SKKNI
 </title>
 <head>
-<h3><a href="index.php" >form input data</a> || <a href="laporan/data_peserta.php" >laporan</a></h3>
+<h3><a href="index.php" >form input data</a> || <a href="data_peserta.php" >laporan</a></h3>
 </head>
 <body> 
 <h3><label>Input Data</label></h3>
