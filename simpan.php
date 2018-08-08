@@ -1,5 +1,5 @@
 <?php
-include 'config/koneksi.php';
+include 'koneksi.php';
 // menyimpan data kedalam variabel
 $nama                            = $_POST['nama'];
 $nik                             = $_POST['nik'];
