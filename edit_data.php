@@ -1,6 +1,6 @@
 <?php 
-include "config/koneksi.php";
-include "config/function.php";
+include "koneksi.php";
+include "function.php";
 
 $id = $_GET['id'];
 $data = mysql_fetch_array(mysql_query("select * from peserta where nik = '$id'"));
@@ -12,7 +12,7 @@ $data = mysql_fetch_array(mysql_query("select * from peserta where nik = '$id'")
 SKKNI
 </title>
 <head>
-<h3><a href="index.php" >form input data</a> || <a href="laporan/data_peserta.php" >laporan</a></h3>
+<h3><a href="index.php" >form input data</a> || <a href="data_peserta.php" >laporan</a></h3>
 </head>
 <body>
 <h3><label>Edit Data</label></h3>
