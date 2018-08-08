@@ -1,5 +1,5 @@
 <?php
-include 'config/koneksi.php';
+include 'koneksi.php';
 // menyimpan data kedalam variabel
 $nama                            = $_POST['nama'];
 $nik                             = $_POST['nik'];
@@ -25,6 +25,6 @@ $input = mysql_query("update peserta set nama='$nama',
 											nik='$nik'") or die(mysql_error());
 // mengalihkan ke halaman index.php
 if ($input) {
-	header('location:laporan/data_peserta.php?a=e');
+	header('location:data_peserta.php?a=e');
 	}
 ?>
